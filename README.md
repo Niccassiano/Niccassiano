@@ -14,7 +14,7 @@
       <img src="./nic-ascii.svg" width="370" alt="Nicolle sendo desenhada em ASCII" />
     </td>
     <td valign="top">
-      <img src="./info-card.svg" width="500" alt="Informações sobre mim, faculdade e carreira" />
+      <img src="./info-card.svg" width="470" alt="Informações sobre mim, faculdade e carreira" />
     </td>
   </tr>
 </table>
