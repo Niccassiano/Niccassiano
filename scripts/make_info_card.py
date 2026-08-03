@@ -1,6 +1,6 @@
 # scripts/make_info_card.py
 
-svg_content = '''<svg width="530" height="360" xmlns="http://www.w3.org/2000/svg">
+svg_content = '''<svg width="530" height="380" xmlns="http://www.w3.org/2000/svg">
   <style>
     /* Tema Dark moderno de editor de codigo */
     .bg { fill: #0d1117; }
@@ -28,9 +28,9 @@ svg_content = '''<svg width="530" height="360" xmlns="http://www.w3.org/2000/svg
   <g transform="translate(20, 48)">
     <text y="15" class="text" style="animation-delay: 0.1s">{</text>
     
-    <text y="37" class="text" style="animation-delay: 0.2s">  <tspan class="key">"experience"</tspan>: <tspan class="highlight">"1+ ano de experiência"</tspan>,</text>
-    
-    <text y="59" class="text" style="animation-delay: 0.25s">  <tspan class="key">"role"</tspan>: <tspan class="role-highlight">"Desenvolvedora Full Stack"</tspan>,</text>
+    <text y="37" class="text" style="animation-delay: 0.2s">  <tspan class="key">"role"</tspan>: <tspan class="role-highlight">"Desenvolvedora Full Stack"</tspan>,</text>
+
+    <text y="59" class="text" style="animation-delay: 0.25s">  <tspan class="key">"experience"</tspan>: <tspan class="highlight">"1+ ano de experiência"</tspan>,</text>
     
     <text y="81" class="text" style="animation-delay: 0.3s">  <tspan class="key">"education"</tspan>: <tspan class="string">"Cursando Ciência da Computação"</tspan>,</text>
     
@@ -47,13 +47,15 @@ svg_content = '''<svg width="530" height="360" xmlns="http://www.w3.org/2000/svg
     
     <text y="251" class="text" style="animation-delay: 0.6s">  <tspan class="key">"languages"</tspan>: <tspan class="string">"Português (Nativo), Inglês (Intermediário)"</tspan>,</text>
     
-    <text y="273" class="text" style="animation-delay: 0.65s">  <tspan class="key">"quote"</tspan>: <tspan class="string">"Sempre evoluindo, uma linha de código por vez."</tspan></text>
+    <text y="273" class="text" style="animation-delay: 0.65s">  <tspan class="key">"quote"</tspan>: <tspan class="string">"Sempre evoluindo, uma linha de código por vez."</tspan>,</text>
+
+    <text y="295" class="text" style="animation-delay: 0.7s">  <tspan class="key">"status"</tspan>: <tspan class="string">"200 OK | Pronta para novos desafios 🚀"</tspan></text>
     
-    <text y="295" class="text" style="animation-delay: 0.7s">}</text>
+    <text y="317" class="text" style="animation-delay: 0.75s">}</text>
   </g>
 </svg>'''
 
 with open("info-card.svg", "w", encoding="utf-8") as f:
     f.write(svg_content)
     
-print("Cartao info-card.svg atualizado com sucesso!")
+print("Cartao info-card.svg atualizado com a versao final!")
