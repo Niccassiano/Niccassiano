@@ -47,7 +47,7 @@
     
     <text y="273" class="text" style="animation-delay: 0.65s">  <tspan class="key">"quote"</tspan>: <tspan class="string">"Sempre evoluindo, uma linha de código por vez."</tspan>,</text>
 
-    <text y="295" class="text" style="animation-delay: 0.7s">  <tspan class="key">"status"</tspan>: <tspan class="string">"200 OK | Pronta para novos desafios 🚀"</tspan></text>
+    <text y="295" class="text" style="animation-delay: 0.7s">  <tspan class="key">"status"</tspan>: <tspan class="string">"200 OK | Pronta para novos desafios e contribuicoes."</tspan></text>
     
     <text y="317" class="text" style="animation-delay: 0.75s">}</text>
   </g>
