@@ -1,16 +1,47 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**Niccassiano/Niccassiano** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!-- 1. DESTAQUE NA CAPA: Gráfico de Contribuições Animado (Onda) -->
+<h3><code>nic@github ~ $ ./contributions.sh</code></h3>
+<img src="./contrib-heatmap.svg" width="860" alt="Minhas contribuições no último ano" />
 
-Here are some ideas to get you started:
+<br><br>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!-- 2. FOTO DESENHADA E DESCRIÇÕES (NEOFETCH) -->
+<h3><code>nic@github ~ $ whoami</code></h3>
+<table>
+  <tr>
+    <td valign="top">
+      <img src="./nic-ascii.svg" width="370" alt="Nicolle sendo desenhada em ASCII" />
+    </td>
+    <td valign="top">
+      <img src="./info-card.svg" width="490" alt="Informações sobre mim, faculdade e carreira" />
+    </td>
+  </tr>
+</table>
+
+<br><br>
+
+<!-- 3. CERTIFICAÇÃO CISCO -->
+<h3><code>nic@github ~ $ cat certificacoes/cisco.txt</code></h3>
+<a href="https://www.credly.com/users/nicolle-cassiano" target="_blank">
+  <img src="https://images.credly.com/images/1587d69d-dfa3-4bbf-afba-28db142646d2/CCNA.png" width="180" alt="Cisco CCNA Certification" />
+</a>
+
+<br><br>
+
+<!-- 4. TECNOLOGIAS E FERRAMENTAS -->
+<h3><code>nic@github ~ $ ls ~/stack</code></h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</p>
+
+</div>
