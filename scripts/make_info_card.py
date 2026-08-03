@@ -1,6 +1,6 @@
 # scripts/make_info_card.py
 
-svg_content = '''<svg width="510" height="400" xmlns="http://www.w3.org/2000/svg">
+svg_content = '''<svg width="530" height="360" xmlns="http://www.w3.org/2000/svg">
   <style>
     /* Tema Dark moderno de editor de codigo */
     .bg { fill: #0d1117; }
@@ -28,7 +28,7 @@ svg_content = '''<svg width="510" height="400" xmlns="http://www.w3.org/2000/svg
   <g transform="translate(20, 48)">
     <text y="15" class="text" style="animation-delay: 0.1s">{</text>
     
-    <text y="37" class="text" style="animation-delay: 0.2s">  <tspan class="key">"experience"</tspan>: <tspan class="highlight">"1+ Years of Experience"</tspan>,</text>
+    <text y="37" class="text" style="animation-delay: 0.2s">  <tspan class="key">"experience"</tspan>: <tspan class="highlight">"1+ ano de experiência"</tspan>,</text>
     
     <text y="59" class="text" style="animation-delay: 0.25s">  <tspan class="key">"role"</tspan>: <tspan class="role-highlight">"Desenvolvedora Full Stack"</tspan>,</text>
     
@@ -38,16 +38,18 @@ svg_content = '''<svg width="510" height="400" xmlns="http://www.w3.org/2000/svg
     
     <text y="125" class="text" style="animation-delay: 0.4s">  <tspan class="key">"acting"</tspan>: <tspan class="string">"Back-end, Front-end, DevOps, Infraestrutura"</tspan>,</text>
     
-    <text y="147" class="text" style="animation-delay: 0.5s">  <tspan class="key">"stack"</tspan>: [</text>
-    <text y="167" class="text" style="animation-delay: 0.55s">    <tspan class="array">"PHP (Laravel)"</tspan>, <tspan class="array">"JavaScript"</tspan>, <tspan class="array">"Python"</tspan>, <tspan class="array">"C"</tspan>,</text>
-    <text y="187" class="text" style="animation-delay: 0.55s">    <tspan class="array">"SQL"</tspan>, <tspan class="array">"Docker"</tspan>, <tspan class="array">"Jenkins"</tspan></text>
-    <text y="207" class="text" style="animation-delay: 0.55s">  ],</text>
+    <text y="147" class="text" style="animation-delay: 0.45s">  <tspan class="key">"stack"</tspan>: [</text>
+    <text y="167" class="text" style="animation-delay: 0.5s">    <tspan class="array">"PHP (Laravel)"</tspan>, <tspan class="array">"JavaScript"</tspan>, <tspan class="array">"Python"</tspan>, <tspan class="array">"C"</tspan>,</text>
+    <text y="187" class="text" style="animation-delay: 0.5s">    <tspan class="array">"SQL"</tspan>, <tspan class="array">"Docker"</tspan>, <tspan class="array">"Jenkins"</tspan></text>
+    <text y="207" class="text" style="animation-delay: 0.5s">  ],</text>
     
-    <text y="229" class="text" style="animation-delay: 0.6s">  <tspan class="key">"certification"</tspan>: <tspan class="string">"Cisco CCNAv7 (Redes &amp; Troubleshooting)"</tspan>,</text>
+    <text y="229" class="text" style="animation-delay: 0.55s">  <tspan class="key">"certification"</tspan>: <tspan class="string">"Cisco CCNAv7 (Redes &amp; Troubleshooting)"</tspan>,</text>
     
-    <text y="251" class="text" style="animation-delay: 0.7s">  <tspan class="key">"quote"</tspan>: <tspan class="string">"Sempre evoluindo, uma linha de código por vez."</tspan></text>
+    <text y="251" class="text" style="animation-delay: 0.6s">  <tspan class="key">"languages"</tspan>: <tspan class="string">"Português (Nativo), Inglês (Intermediário)"</tspan>,</text>
     
-    <text y="273" class="text" style="animation-delay: 0.8s">}</text>
+    <text y="273" class="text" style="animation-delay: 0.65s">  <tspan class="key">"quote"</tspan>: <tspan class="string">"Sempre evoluindo, uma linha de código por vez."</tspan></text>
+    
+    <text y="295" class="text" style="animation-delay: 0.7s">}</text>
   </g>
 </svg>'''
 
