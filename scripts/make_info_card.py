@@ -1,6 +1,6 @@
 # scripts/make_info_card.py
 
-svg_content = '''<svg width="510" height="340" xmlns="http://www.w3.org/2000/svg">
+svg_content = '''<svg width="510" height="400" xmlns="http://www.w3.org/2000/svg">
   <style>
     /* Tema Dark moderno de editor de codigo */
     .bg { fill: #0d1117; }
