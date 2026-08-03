@@ -11,16 +11,16 @@ print(f"Buscando contribuições de {USERNAME}...")
 response = requests.get(URL)
 soup = BeautifulSoup(response.text, 'html.parser')
 
-# 1. Pega o texto total de contribuições direto do HTML do GitHub (ex: "128 contributions in the last year")
+
 total_contribs = 0
-# O GitHub costuma colocar essa informação em um h2 ou tag de resumo na página de perfil
+
 h2_tag = soup.find(lambda tag: tag.name == 'h2' and 'contribution' in tag.text.lower())
 if h2_tag:
     match = re.search(r'([\d,]+)\s+contrib', h2_tag.text)
     if match:
         total_contribs = int(match.group(1).replace(',', ''))
 
-# Caso não ache no h2, vamos procurar em qualquer texto da página que combine com o padrão
+
 if total_contribs == 0:
     for text in soup.stripped_strings:
         if "contributions in the last year" in text.lower() or "contribution in the last year" in text.lower():
@@ -29,7 +29,7 @@ if total_contribs == 0:
                 total_contribs = int(match.group(1).replace(',', ''))
                 break
 
-# Se mesmo assim não achar por texto, fazemos a soma baseada nos níveis dos dias como fallback
+
 days = soup.find_all('td', class_='ContributionCalendar-day')
 calendar_data = []
 
@@ -39,9 +39,9 @@ for day in days:
     if date and level:
         calendar_data.append({"date": date, "level": int(level)})
 
-# Salvamos tudo em um dicionário estruturado contendo o total real e os dias
+
 output_data = {
-    "total": total_contribs if total_contribs > 0 else 128, # Usa o real capturado ou assume o atual como segurança
+    "total": total_contribs if total_contribs > 0 else 128, 
     "days": calendar_data
 }
 
