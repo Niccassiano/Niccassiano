@@ -1,6 +1,6 @@
 # scripts/make_info_card.py
 
-svg_content = '''<svg width="490" height="400" xmlns="http://www.w3.org/2000/svg">
+svg_content = '''<svg width="510" height="340" xmlns="http://www.w3.org/2000/svg">
   <style>
     /* Tema Dark moderno de editor de codigo */
     .bg { fill: #0d1117; }
@@ -10,6 +10,7 @@ svg_content = '''<svg width="490" height="400" xmlns="http://www.w3.org/2000/svg
     .key { fill: #79c0ff; font-weight: bold; }
     .string { fill: #a5d6ff; }
     .highlight { fill: #ff7b72; font-weight: bold; font-size: 14px; text-shadow: 0 0 5px rgba(255,123,114,0.4); }
+    .role-highlight { fill: #7ee787; font-weight: bold; }
     .array { fill: #f2cc60; }
     
     @keyframes fadeIn { to { opacity: 1; } }
@@ -24,31 +25,33 @@ svg_content = '''<svg width="490" height="400" xmlns="http://www.w3.org/2000/svg
   <circle cx="60" cy="20" r="6" fill="#27c93f"/>
 
   <!-- Escrita simulando um Objeto de Codigo (JSON) -->
-  <g transform="translate(20, 50)">
-    <text y="20" class="text" style="animation-delay: 0.1s">{</text>
+  <g transform="translate(20, 48)">
+    <text y="15" class="text" style="animation-delay: 0.1s">{</text>
     
-    <text y="42" class="text" style="animation-delay: 0.2s">  <tspan class="key">"experience"</tspan>: <tspan class="highlight">"1+ Years of Experience"</tspan>,</text>
+    <text y="37" class="text" style="animation-delay: 0.2s">  <tspan class="key">"experience"</tspan>: <tspan class="highlight">"1+ Years of Experience"</tspan>,</text>
     
-    <text y="64" class="text" style="animation-delay: 0.3s">  <tspan class="key">"education"</tspan>: <tspan class="string">"Cursando Ciência da Computação"</tspan>,</text>
+    <text y="59" class="text" style="animation-delay: 0.25s">  <tspan class="key">"role"</tspan>: <tspan class="role-highlight">"Desenvolvedora Full Stack"</tspan>,</text>
     
-    <text y="86" class="text" style="animation-delay: 0.4s">  <tspan class="key">"about"</tspan>: <tspan class="string">"Apaixonada por tecnologia &amp; eng. de software"</tspan>,</text>
+    <text y="81" class="text" style="animation-delay: 0.3s">  <tspan class="key">"education"</tspan>: <tspan class="string">"Cursando Ciência da Computação"</tspan>,</text>
     
-    <text y="108" class="text" style="animation-delay: 0.5s">  <tspan class="key">"acting"</tspan>: <tspan class="string">"Back-end, Front-end (HTML/CSS), Infraestrutura"</tspan>,</text>
+    <text y="103" class="text" style="animation-delay: 0.35s">  <tspan class="key">"about"</tspan>: <tspan class="string">"Apaixonada por tecnologia &amp; eng. de software"</tspan>,</text>
     
-    <text y="130" class="text" style="animation-delay: 0.6s">  <tspan class="key">"stack"</tspan>: [</text>
-    <text y="150" class="text" style="animation-delay: 0.7s">    <tspan class="array">"PHP (Laravel)"</tspan>, <tspan class="array">"JavaScript"</tspan>, <tspan class="array">"Python"</tspan>, <tspan class="array">"C"</tspan>,</text>
-    <text y="170" class="text" style="animation-delay: 0.7s">    <tspan class="array">"SQL"</tspan>, <tspan class="array">"Docker"</tspan>, <tspan class="array">"Jenkins"</tspan></text>
-    <text y="190" class="text" style="animation-delay: 0.7s">  ],</text>
+    <text y="125" class="text" style="animation-delay: 0.4s">  <tspan class="key">"acting"</tspan>: <tspan class="string">"Back-end, Front-end, DevOps, Infraestrutura"</tspan>,</text>
     
-    <text y="212" class="text" style="animation-delay: 0.8s">  <tspan class="key">"certification"</tspan>: <tspan class="string">"Cisco CCNAv7 (Redes &amp; Troubleshooting)"</tspan>,</text>
+    <text y="147" class="text" style="animation-delay: 0.5s">  <tspan class="key">"stack"</tspan>: [</text>
+    <text y="167" class="text" style="animation-delay: 0.55s">    <tspan class="array">"PHP (Laravel)"</tspan>, <tspan class="array">"JavaScript"</tspan>, <tspan class="array">"Python"</tspan>, <tspan class="array">"C"</tspan>,</text>
+    <text y="187" class="text" style="animation-delay: 0.55s">    <tspan class="array">"SQL"</tspan>, <tspan class="array">"Docker"</tspan>, <tspan class="array">"Jenkins"</tspan></text>
+    <text y="207" class="text" style="animation-delay: 0.55s">  ],</text>
     
-    <text y="234" class="text" style="animation-delay: 0.9s">  <tspan class="key">"quote"</tspan>: <tspan class="string">"Sempre evoluindo, uma linha de código por vez."</tspan></text>
+    <text y="229" class="text" style="animation-delay: 0.6s">  <tspan class="key">"certification"</tspan>: <tspan class="string">"Cisco CCNAv7 (Redes &amp; Troubleshooting)"</tspan>,</text>
     
-    <text y="256" class="text" style="animation-delay: 1.0s">}</text>
+    <text y="251" class="text" style="animation-delay: 0.7s">  <tspan class="key">"quote"</tspan>: <tspan class="string">"Sempre evoluindo, uma linha de código por vez."</tspan></text>
+    
+    <text y="273" class="text" style="animation-delay: 0.8s">}</text>
   </g>
 </svg>'''
 
 with open("info-card.svg", "w", encoding="utf-8") as f:
     f.write(svg_content)
     
-print("Cartao info-card.svg atualizado com layout de codigo (JSON)!")
+print("Cartao info-card.svg atualizado com sucesso!")
