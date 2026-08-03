@@ -24,7 +24,7 @@
 <!-- 3. CERTIFICAÇÃO CISCO -->
 <h3><code>nic@github ~ $ cat certificacoes/cisco.txt</code></h3>
 <a href="https://www.credly.com/users/nicolle-cassiano" target="_blank">
-  <img src="https://images.credly.com/images/1587d69d-dfa3-4bbf-afba-28db142646d2/CCNA.png" width="180" alt="Cisco CCNA Certification" />
+  <img src="https://images.credly.com/images/e360c3e0-4031-479b-ad7b-5ce878bc29d7/image.png" width="180" alt="Cisco CCNA Certification" />
 </a>
 
 <br><br>
